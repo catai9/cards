@@ -40,11 +40,9 @@ disqus: yes
 disqus-shortname: webjeda-demo
 
 #social
-facebook: http://facebook.com/webjeda
-quora: http://quora.com/sharathdt
-twitter: http://twitter.com/@webjeda
-github: http://github.com/webjeda
-email: hello@webjeda.com
+facebook: https://www.facebook.com/amytai8
+github: https://github.com/catai9
+email: catai@edu.uwaterloo.ca
 
 #facebook like box
 fb-like-box: yes
