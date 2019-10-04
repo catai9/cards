@@ -4,14 +4,13 @@ title: About
 permalink: /about/
 ---
 
+My name is Amy Tai and I am currently studying 
+[Management Engineering](https://uwaterloo.ca/management-sciences/management-engineering){: target="_blank"} at the University of Waterloo. 
 
+Within the university, I volunteer with various organizations to promote Women in Engineering such as the [WiE Outreach Squad](https://uwaterloo.ca/women-in-engineering/volunteer-opportunities) and [ONWiE](http://www.onwie.ca/amy-tai/). In the past, I held an Undergraduate Research Assistantship (URA) in the topic of Data Security and Applied Cryptography and assisted in the publication of an [Energy Consumption Research Paper](http://cacr.uwaterloo.ca/) located in Technical Reports under #3. 
 
+I spend my spare time swimming, going on adventures with my friends and reading books. I also co-ran the [University of Waterloo Entrepreneurship Society](https://entsoc.ca/) in Spring 2019. 
 
-Webjeda cards is a Bootstrap based theme. Any Bootstrap element can be used in the theme. Read [Webjeda Blog](http://blog.webjeda.com){: target="_blank"} for jekyll tutorials. 
+I love to meet new people through volunteer events, coffee chats, and participating in new activities.
 
-For more themes, visit [jekyll-themes](https://jekyll-themes.com){: target="_blank"}
-
-**Does the theme deserve a star?**
-
-<a class="github-button" href="https://github.com/sharu725/cards" data-style="mega" data-count-href="/sharu725/cards/stargazers" data-count-api="/repos/sharu725/cards#stargazers_count" data-count-aria-label="# stargazers on GitHub" aria-label="Star sharu725/cards on GitHub">Star</a>
-<script async defer src="https://buttons.github.io/buttons.js"></script>
+Feel free to reach out anytime on [Linkedin](https://www.linkedin.com/in/amy-tai)!
