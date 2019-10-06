@@ -4,135 +4,86 @@ title:  "Personal Website"
 date:   2019-10-02 10:51:47 +0530
 technologies:  Jekyll, Markdown, Google Forms, Bootstrap, Github Pages, Javascript, Sass, HTML, VS Code
 github: https://github.com/catai9/catai9.github.io
-img: personal-website.JPG
+img: personal-website-project.JPG
 --- 
 
 Personal website to showcase project portfolio.
 
-An [Entity Relationship Diagram](#entity-relationship) and a [Relational Diagram](#relational-diagram) was generated for this database management system. This project was completed in a team of three for MSCI 346: Database Systems final project.
+One of my first personal projects was creating a personal website. I have gone through two major iterations of my website and utilised various tools for each version. This article will be discussing the major changes and their respective reasons.
 
 Link to [Github Code]({{page.github}}).
+
 Technologies used include {{page.technologies}}. 
 
-## Application Functionality
+## Overview of Major Changes
 
-#### 1. **[Update Booking](#update-booking)**
-#### 2. **[Hotel Availability](#hotel-availability)**
-#### 3. **[Employee Stats](#employee-stats)**
-#### 4. **[Event Booking](#event-booking)**
-#### 5. **[Edit Guest Info](#edit-guest-info)**
+#### 1. **[Website Foundation](#website-foundation)**
+#### 2. **[Home Page](#home-page)**
+#### 3. **[Contact Form](#contact-form)**
+#### 4. **[Video Portfolio](#video-portfolio)**
 
-## Application Functionality Details
+## Details of Major Changes
 
-<a name= "update-booking"></a>
+<a name= "website-foundation"></a>
 
-#### 1. Update Booking
-This query demonstrates updating the database information. The update booking query allows individuals to make changes to guest bookings. Employees must enter a guest booking ID to modify the number of individuals in the room. This change is then reflected in the database. 
+#### 1. Website Foundation
+In the first version of the website, the code was built from the ground up and minimal Bootstrap was used to develop features. However, that introduced a lot of problems across browsers and it was time-consuming to add new pages. Then I discovered Jekyll and Markdown which made it easier to add new pages and customize website features. 
+
+[Back to Top](#top)
+
+<a name= "home-page"></a>
+
+#### 2. Home Page
+Initially, the home page consisted of a pyramid of key topics that I was interested in. When hovered, additional details about the topics were shown to the user. Although beneficial, it was soon analyzed that the most frequently visited page was the Projects tab. Thus, in the second iteration, that page became the home page.
 
 <p float="center">
-The user first enters their booking ID.
-  <img src="../images/hotel-database-system/updateBooking.png"/>
+    Initial Home Page
+    <img src="../images/personal-website/before-home.JPG"  />
+</p>
+<p float="center">
+    Initial Project Page
+    The initial project page where cards would flip when hovered to provide more information about the project.
+    <img src="../images/personal-website/initial-project-page.png"  />
 </p>
 
 <p float="center">
-The user is then taken to a pre-populated screen where they can adjust the number of individuals in the room.
-  <img src="../images/hotel-database-system/updateBookingInfo.png"  />
-</p>
-
-<p float="center">
-After submission, they are either taken to a success or error screen. The success screen includes their booking ID.
-  <img src="../images/hotel-database-system/updateBookingSuccess.png"  />
+Revised Project Page 
+  The new version where key project information was displayed on the project card and users can click the card for more detailed information.
+  <img src="../images/personal-website/revised-project-page.JPG"  />
 </p>
 
 [Back to Top](#top)
 
-<a name= "hotel-availability"></a>
+<a name= "contact-form"></a>
 
-#### 2. Check Hotel Availability
-This query demonstrates the use of nested query and an aggregate function (count). The check hotel availability query allows front desk staff to select a hotel chain, a desired hotel and dates. The user then will be given a list of the types and number of rooms available.  
+#### 3. Contact Form
+In the first iteration of the website, the contact form would redirect users to an email application where the content of the email were prepopulated with the information that they had written on the form. However, showcasing my personal email in the files would expose it to email spam bots. Since my personal website is static to decrease loading time, I utilized Google Forms in my code for the contact form. By using Google Forms, I can quickly analyze the form responses and I get a notification when a form is submitted. 
 
 <p float="center">
-  The user first selects their desired hotel and the time intervals for their stay.
-  <img src="../images/hotel-database-system/hotelAvailability.JPG"  />
+  Initial Contact Form
+  <img src="../images/personal-website/initial-contact-form.JPG"  />
 </p>
 
 <p float="center">
-  A list is then shown with the number of available rooms for each room type during that time interval.
-  <img src="../images/hotel-database-system/hotelAvailabilityList.JPG"  />
-</p>
-
-[Back to Top](#top)
-
-<a name= "employee-stats"></a>
-
-#### 3. Employee Statistics
-This query demonstrates the use of aggregate functions (avg, max, min) and natural join. The employee statistics query was created for upper management to view employee salary and average hours worked per week. The query allows the user to select a chain, then select a hotel and finally an employee type. 
-
-<p float="center">
-  The user first selects their desired hotel chain.
-  <img src="../images/hotel-database-system/employeeStatsHome.JPG"  />
-</p>
-
-<p float="center">
-  The next screen is prepopulated with the different hotels within that chain.
-  <img src="../images/hotel-database-system/employeeStatsPopulated.JPG"  />
-</p>
-
-<p float="center">
-  The employee statistics are then shown for the chosen hotel and employee type. The user may select all types of employees if they desire.
-  <img src="../images/hotel-database-system/employeeStatsList.JPG"  />
+  Contact Form with Google Forms
+  <img src="../images/personal-website/revised-contact-form.JPG"  />
 </p>
 
 [Back to Top](#top)
 
-<a name= "event-booking"></a>
+<a name= "video-portfolio"></a>
 
-#### 4. Event Booking For Large Groups
-This query demonstrates the use of group by and having. The event booking for large groups query is utilized to check which hotels are able hold an event based on the count of the room capacities when planning large scale events. The Party size is entered, and a list of possible hotels is generated that have enough room capacity to accommodate guests. 
+#### 4. Video Portfolio
+At first, I was planning to host a video portfolio on my website as videos are more engaging. However, after conducting research and user tests, it was soon discovered that factors such as loading time for the video outweigh the possible benefits of using a video. Thus, the video was removed and a simple About page was used instead. 
 
 <p float="center">
-  The user enters the number of people in the group.
-  <img src="../images/hotel-database-system/eventInquiry.png"  />
+  Using a Video
+  <img src="../images/personal-website/video-intro.JPG"  />
 </p>
 
 <p float="center">
-  A list of hotels is then generated that support the group size.
-  <img src="../images/hotel-database-system/eventInquiryListing.png"  />
-</p>
-
-[Back to Top](#top)
-
-<a name= "edit-guest-info"></a>
-
-#### 5. Edit Guest Information
-This query demonstrates insert, update and delete of an entity. The edit guest information query allows individuals to make changes to guest information stored in the database. Attributes that may be updated include name, city, street, postal code and phone number. A guest may also be added to the database or deleted from the database. 
-
-<p float="center">
-  The first screen provides users with different guest management requests.
-  <img src="../images/hotel-database-system/editGuestHome.png"  />
-</p>
-
-<p float="center">
-  If the user selects sign up, a sign up form is shown for population.
-  <img src="../images/hotel-database-system/editGuestSignUp.png"  />
-</p>
-
-[Back to Top](#top)
-
-<a name= "entity-relatonship"></a>
-
-## Entity Relationship
-<p float="center">
-  <img src="../images/hotel-database-system/Final ER Diagram.png" />
-</p>
-
-[Back to Top](#top)
-
-<a name= "relational-diagram"></a>
-
-## Relational Diagrams
-<p float="center">
-  <img src="../images/hotel-database-system/Final Relational Diagram.png" />
+  Showing an About Page
+  <img src="../images/personal-website/about-page.JPG"  />
 </p>
 
 [Back to Top](#top)

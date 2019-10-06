@@ -5,4 +5,4 @@ permalink: /contact/
 ---
 
 
-I'd love to hear from you and I'm available for consulting work.
+I'd love to hear from you about possible internships, freelance consulting work, or even a simple coffee chat! 
