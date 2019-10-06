@@ -7,9 +7,8 @@
 
 # Site settings
 title: Amy Tai
-email: catai@edu.uwaterloo.ca
 description: > # this means to ignore newlines until "baseurl:"
-  Webjeda Cards is a Bootstrap based jekyll theme for portfolio, photography or any kind of blog.
+  Personal website
   
   
 baseurl: "/cards" # the subpath of your site, e.g. /blog
@@ -28,7 +27,6 @@ paginate_path: /page:num/
 facebook: https://www.facebook.com/amytai8
 linkedin: https://www.linkedin.com/in/amy-tai/
 github: https://github.com/catai9
-email: catai@edu.uwaterloo.ca
 
 # Sass style
 sass:

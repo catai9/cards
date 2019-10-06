@@ -144,3 +144,38 @@ footer {
 article.post {
     margin-bottom: 5em;
 }
+
+.contact-form {
+    padding: 50px;
+    margin: 30px 0;
+    .form-control, .contact-form .btn  {
+        min-height: 38px;
+        border-radius: 2px;
+    }
+    .btn-primary {
+        min-width: 150px;
+        background: #299be4;
+        border: none;
+    }
+    .btn-primary:hover {
+        background: #1c8cd7; 
+    }
+    label {
+        opacity: 0.9;
+    }
+    textarea {
+        resize: vertical;
+    }
+}
+
+.btn.btn-primary{
+    width:100% ;
+}
+.hint-text {
+    font-size: 15px;
+    padding-bottom: 15px;
+    opacity: 0.8;
+}
+.bs-example {
+    margin: 20px;
+}
