@@ -3,7 +3,7 @@ layout: post
 title:  "Hotel Database System"
 date:   2019-08-20 10:51:47 +0530
 technologies: SQL, PHP, HTML, CSS, Brackets
-github: https://github.com/sehersarin/Hotel-Database-System
+github: https://github.com/catai9/hotel-database-system
 img: hotel-database-project.png
 ---
 
