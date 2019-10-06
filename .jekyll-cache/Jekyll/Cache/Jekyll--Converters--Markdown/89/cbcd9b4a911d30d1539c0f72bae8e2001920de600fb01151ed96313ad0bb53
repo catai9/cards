@@ -1,0 +1,42 @@
+I" <p>Hotel Database Information Retrieval System for use by internal employees.
+Completed in a team of three for MSCI 346: Database Systems final project.</p>
+
+<h2 id="application-functionality">Application Functionality</h2>
+
+<h4 id="update-booking">Update Booking</h4>
+<hr />
+<p>This query demonstrates updating the database information. The update booking query allows individuals to make changes to guest bookings. Employees must enter a guest booking ID to modify the number of individuals in the room. This change is then reflected in the database.</p>
+<p float="center">
+  <img src="../images/hotel-database-system/updateBooking.png" width="900" height="500" />
+  <img src="../images/hotel-database-system/updateBookingInfo.png" width="900" height="500" />
+  <img src="../images/hotel-database-system/updateBookingSuccess.png" width="900" height="500" />
+  <img src="../images/hotel-database-system/updateBookingError.png" width="900" height="500" />
+</p>
+
+<h4 id="check-hotel-availability">Check Hotel Availability</h4>
+<hr />
+<p>This query demonstrates the use of nested query and an aggregate function (count). The check hotel availability query allows front desk staff to select a hotel chain, a desired hotel and dates. The user then will be given a list of the types and number of rooms available.</p>
+<p float="center">
+  <img src="../images/hotel-database-system/hotelAvailability.jpg" width="900" height="500" />
+  <img src="../images/hotel-database-system/hotelAvailabilityList.jpg" width="900" height="500" />
+</p>
+
+<h4 id="employee-statistics">Employee Statistics</h4>
+<hr />
+<p>This query demonstrates the use of aggregate functions (avg, max, min) and natural join. The employee statistics query was created for upper management to view employee salary and average hours worked per week. The query allows the user to select a chain, then select a hotel and finally an employee type.</p>
+
+<h4 id="event-booking-for-large-groups">Event Booking For Large Groups</h4>
+<hr />
+<p>This query demonstrates the use of group by and having. The event booking for large groups query is utilized to check which hotels are able hold an event based on the count of the room capacities when planning large scale events. The Party size is entered, and a list of possible hotels is generated that have enough room capacity to accommodate guests.</p>
+
+<h4 id="edit-guest-information">Edit Guest Information</h4>
+<hr />
+<p>This query demonstrates insert, update and delete of an entity. The edit guest information query allows individuals to make changes to guest information stored in the database. Attributes that may be updated include name, city, street, postal code and phone number. A guest may also be added to the database or deleted from the database.</p>
+
+<h2 id="entity-relationship--relational-diagrams"><strong>Entity Relationship &amp; Relational Diagrams</strong></h2>
+
+<p float="center">
+  <img src="../images/hotel-database-system/Final ER Diagram.png" width="400" height="400" />
+  <img src="../images/hotel-database-system/Final Relational Diagram.png" width="450" height="400" />
+</p>
+:ET

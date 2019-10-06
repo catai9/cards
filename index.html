@@ -18,10 +18,13 @@ layout: default
                   {% endif %}
                   
                   <div class="panel-body">
-                    <h3 class="panel-title pull-left">{{ post.title | truncate: 25 }}</h3><span class="post-meta pull-right"><small>{{ post.date | date: "%b %-d, %Y" }}</small></span>
+                    <br>
+                    <h3 class="panel-title pull-left">{{ post.title | truncate: 25 }}</h3><span class="post-date pull-right"><small>{{ post.date | date: "%b %-d, %Y" }}</small></span>
                   </div>
                   
                   <div class="panel-body"><small>
+                    <span class="post-meta">{{post.technologies}}</span> 
+                    <br>
                     {{ post.excerpt | strip_html | strip_newlines | truncate: 180 }}</small>
                   </div>
                 </div>
