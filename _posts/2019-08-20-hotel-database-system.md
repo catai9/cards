@@ -2,13 +2,17 @@
 layout: post
 title:  "Hotel Database System"
 date:   2019-08-20 10:51:47 +0530
-technologies: SQL, PHP, HTML, CSS, GitHub, Brackets
-img: hotel-database-system/homeScreen.png
+technologies: SQL, PHP, HTML, CSS, Brackets
+github: https://github.com/sehersarin/Hotel-Database-System
+img: hotel-database-project.png
 ---
 
 Hotel Database Information Retrieval System for use by internal employees. 
 
 An [Entity Relationship Diagram](#entity-relationship) and a [Relational Diagram](#relational-diagram) was generated for this database management system. This project was completed in a team of three for MSCI 346: Database Systems final project.
+
+Link to [Github Code]({{page.github}}).
+Technologies used include {{page.technologies}}. 
 
 ## Application Functionality
 
