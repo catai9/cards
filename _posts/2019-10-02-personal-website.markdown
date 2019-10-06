@@ -4,7 +4,7 @@ title:  "Personal Website"
 date:   2019-10-02 10:51:47 +0530
 technologies:  Jekyll, Markdown, Google Forms, Bootstrap, Github Pages, Javascript, Sass, HTML, VS Code
 github: https://github.com/catai9/catai9.github.io
-img: personal-website.jpg
+img: personal-website.JPG
 --- 
 
 Personal website to showcase project portfolio.
@@ -53,12 +53,12 @@ This query demonstrates the use of nested query and an aggregate function (count
 
 <p float="center">
   The user first selects their desired hotel and the time intervals for their stay.
-  <img src="../images/hotel-database-system/hotelAvailability.jpg"  />
+  <img src="../images/hotel-database-system/hotelAvailability.JPG"  />
 </p>
 
 <p float="center">
   A list is then shown with the number of available rooms for each room type during that time interval.
-  <img src="../images/hotel-database-system/hotelAvailabilityList.jpg"  />
+  <img src="../images/hotel-database-system/hotelAvailabilityList.JPG"  />
 </p>
 
 [Back to Top](#top)
@@ -70,17 +70,17 @@ This query demonstrates the use of aggregate functions (avg, max, min) and natur
 
 <p float="center">
   The user first selects their desired hotel chain.
-  <img src="../images/hotel-database-system/employeeStatsHome.jpg"  />
+  <img src="../images/hotel-database-system/employeeStatsHome.JPG"  />
 </p>
 
 <p float="center">
   The next screen is prepopulated with the different hotels within that chain.
-  <img src="../images/hotel-database-system/employeeStatsPopulated.jpg"  />
+  <img src="../images/hotel-database-system/employeeStatsPopulated.JPG"  />
 </p>
 
 <p float="center">
   The employee statistics are then shown for the chosen hotel and employee type. The user may select all types of employees if they desire.
-  <img src="../images/hotel-database-system/employeeStatsList.jpg"  />
+  <img src="../images/hotel-database-system/employeeStatsList.JPG"  />
 </p>
 
 [Back to Top](#top)
